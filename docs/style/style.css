@@ -184,7 +184,7 @@ article h2 span {
 .card .fact {
     font-weight: bold;
     border: 2px dashed #b4b4b4;
-    text-align: center;
+    text-align: justify;
     padding: 15px;
 }
 
