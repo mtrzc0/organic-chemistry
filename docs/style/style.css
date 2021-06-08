@@ -195,7 +195,6 @@ article h2 span {
 
 .card ul li {
     margin: 15px 0;
-    font-weight: bold;
 }
 
 .card ul li::before {
@@ -206,6 +205,7 @@ article h2 span {
 
 .card ul li ul {
     list-style: none;
+    padding: 0 15px;
 }
 
 .card ul li ul li::before {
@@ -478,7 +478,7 @@ footer {
         background-color: #2a91e6;
     }
     header .mobile-list ul li:first-child {
-        background-color: #dadada;
+        background-color: #f0f0f0;
     }
     header .mobile-list li a {
         text-decoration: none;
