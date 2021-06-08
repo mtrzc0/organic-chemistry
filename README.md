@@ -1,6 +1,6 @@
 # chemiaorganiczna
 Site about chemistry🧪 with full responsive layout 😎 🇵🇱
-> https://mefjak000.github.io/chemiaorganiczna
+> https://chemiaorganiczna.codes/
 
 ## Sources
 
