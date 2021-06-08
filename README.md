@@ -1,6 +1,6 @@
 # chemiaorganiczna
 Site about chemistry🧪 with full responsive layout 😎 🇵🇱
-> https://chemiaorganiczna.codes/
+> https://www.chemiaorganiczna.codes/
 
 ## Sources
 
