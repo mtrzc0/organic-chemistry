@@ -352,7 +352,7 @@ footer {
         width: 100vw;
         height: auto;
         z-index: 1;
-        transition: top .9s ease-in-out;
+        transition: top .8s ease-in-out;
     }
     header .mobile-list ul {
         flex-direction: column;
@@ -362,7 +362,7 @@ footer {
     }
     header .mobile-list ul li {
         list-style: none;
-        height: 80px;
+        height: 60px;
         width: 100vw;
         display: flex;
         align-items: center;
@@ -370,7 +370,7 @@ footer {
         flex-direction: column;
         margin: 0;
         padding: 10px;
-        transition: all .9s ease-in-out;
+        transition: all .4s ease-in-out;
     }
     header .mobile-list ul li:nth-child(2n) {
         background-color: #277bc0;
@@ -379,7 +379,7 @@ footer {
         background-color: #2a91e6;
     }
     header .mobile-list ul li:first-child {
-        background-color: #dadada;
+        background-color: #f0f0f0;
     }
     header .mobile-list li a {
         text-decoration: none;
@@ -387,7 +387,6 @@ footer {
         padding: 0 10px;
         color: var(--headerMobileLinksColor);
         font-weight: bold;
-        transition: transform .8s ease-out;
     }
     .menu-btn {
         display: flex;
@@ -451,7 +450,7 @@ footer {
         width: 100vw;
         height: auto;
         z-index: 1;
-        transition: top .9s ease-in-out;
+        transition: top .8s ease-in-out;
     }
     header .mobile-list ul {
         flex-direction: column;
@@ -469,7 +468,7 @@ footer {
         flex-direction: column;
         margin: 0;
         padding: 10px;
-        transition: all .9s ease-in-out;
+        transition: all .4s ease-in-out;
     }
     header .mobile-list ul li:nth-child(2n) {
         background-color: #277bc0;
@@ -486,7 +485,6 @@ footer {
         padding: 0 10px;
         color: var(--headerMobileLinksColor);
         font-weight: bold;
-        transition: transform .8s ease-out;
     }
     .menu-btn {
         display: flex;
