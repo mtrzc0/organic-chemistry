@@ -1,8 +1,11 @@
 const mobileMenuBurgerIcon = document.querySelector('.menu-btn .burger')
 const headerMobileList = document.querySelector('header .mobile-list')
 const headerMobileListLink = document.querySelectorAll('header .mobile-list li')
-
 let screenWidth = 0
+
+let date = new Date()
+const dateElement = document.querySelector('#date')
+dateElement.innerText = date.getFullYear()
 
 function showMobileMenu() {
     screenWidth = screen.width

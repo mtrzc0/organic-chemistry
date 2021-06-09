@@ -114,6 +114,7 @@ header .main-list li::before {
     content: '';
     display: block;
     position: relative;
+    height: 2px;
     width: 90%;
     transform: translateY(-6px);
     border-bottom: 1px solid var(--siteBackgroundColorTheme);
@@ -131,6 +132,7 @@ header .main-list li::after {
     content: '';
     display: block;
     position: relative;
+    height: 2px;
     width: 90%;
     transform: translateY(6px);
     border-top: 1px solid var(--siteBackgroundColorTheme);
@@ -149,7 +151,7 @@ header .main-list li:hover>a {
 }
 
 main {
-    min-height: calc(100vh - 115px);
+    min-height: calc(100vh - 125px);
 }
 
 .container {
@@ -296,12 +298,24 @@ article h2 {
 
 footer {
     width: 100%;
-    height: 35px;
+    height: 45px;
     display: flex;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     background-color: var(--siteBackgroundColorTheme);
     color: var(--siteColorTheme);
+}
+
+footer span {
+    font-size: .8em;
+    margin: 0 3px;
+}
+
+footer img {
+    display: inline;
+    width: 60%;
+    height: 60%;
 }
 
 /* width */
@@ -518,8 +532,14 @@ footer {
     .card table {
         margin: 0px
     }
+    main {
+        min-height: calc(100vh - 105px);
+    }
     article {
         width: 96vw;
         padding: 2px;
+    }
+    footer span {
+        font-size: .8em;
     }
 }
