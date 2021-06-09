@@ -1,5 +1,5 @@
 const mobileMenuBtn = document.querySelector('.menu-btn')
-const burgerBars = document.querySelector('.menu-btn .burger')
+const mobileMenuBurgerIcon = document.querySelector('.menu-btn .burger')
 const headerMobileList = document.querySelector('header .mobile-list')
 const headerMobileListLink = document.querySelectorAll('header .mobile-list li')
 
@@ -13,14 +13,14 @@ function showMobileMenu() {
             headerMobileListLink.forEach(link => {
                 link.style.transform = 'scale(1)'
             })
-            burgerBars.classList.toggle('changeBars')
+            mobileMenuBurgerIcon.classList.toggle('changeBars')
         }
         else {
             headerMobileList.style.top = '-300px'
             headerMobileListLink.forEach(link => {
                 link.style.transform = 'scale(0)'
             })
-            burgerBars.classList.toggle('changeBars')
+            mobileMenuBurgerIcon.classList.toggle('changeBars')
         }
     } else if (screenWidth > 650 && screenWidth < 1150) {
         if (headerMobileList.style.top == '-300px') {
@@ -28,16 +28,16 @@ function showMobileMenu() {
             headerMobileListLink.forEach(link => {
                 link.style.transform = 'scale(1)'
             })
-            burgerBars.classList.toggle('changeBars')
+            mobileMenuBurgerIcon.classList.toggle('changeBars')
         }
         else {
             headerMobileList.style.top = '-300px'
             headerMobileListLink.forEach(link => {
                 link.style.transform = 'scale(0)'
             })
-            burgerBars.classList.toggle('changeBars')
+            mobileMenuBurgerIcon.classList.toggle('changeBars')
         }
     }
 }
 
-mobileMenuBtn.addEventListener('click', showMobileMenu)
+mobileMenuBurgerIcon.addEventListener('click', showMobileMenu)
