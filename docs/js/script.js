@@ -1,4 +1,3 @@
-const mobileMenuBtn = document.querySelector('.menu-btn')
 const mobileMenuBurgerIcon = document.querySelector('.menu-btn .burger')
 const headerMobileList = document.querySelector('header .mobile-list')
 const headerMobileListLink = document.querySelectorAll('header .mobile-list li')
