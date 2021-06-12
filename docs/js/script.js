@@ -18,32 +18,32 @@ const screenObject = {
 
 function smartphoneWidth () {
     if (isOpen === false) {
+        toggle.classList.add('changeBars')
         menuTL
             .to(mobileMenu, { translateX: '0vw'  })
             // .fromTo(mobileMenuLink, { scale: 0 }, { scale: 1 }, '-=0.8')
-        toggle.classList.add('changeBars')
         isOpen = true
     } else {
+        toggle.classList.remove('changeBars')
         menuTL
             .to(mobileMenu, { translateX: '-80vw' })
             // .fromTo(mobileMenuLink, { scale: 1 }, { scale: 0 }, '-=0.8')
-        toggle.classList.remove('changeBars')
         isOpen = false
     }
 }
 
 function tabletWidth() {
     if (isOpen === false) {
+        toggle.classList.add('changeBars')
         menuTL
             .to(mobileMenu, { translateX: '0vw' })
-            // .fromTo(mobileMenuLink, { scale: 0 }, { scale: 1 }, '-=0.8')
-        toggle.classList.add('changeBars')
+        // .fromTo(mobileMenuLink, { scale: 0 }, { scale: 1 }, '-=0.8')
         isOpen = true
     } else {
+        toggle.classList.remove('changeBars')
         menuTL
             .to(mobileMenu, { translateX: '-80vw' })
-            // .fromTo(mobileMenuLink, { scale: 1 }, { scale: 0 }, '-=0.8')
-        toggle.classList.remove('changeBars')
+        // .fromTo(mobileMenuLink, { scale: 1 }, { scale: 0 }, '-=0.8')
         isOpen = false
     }
 }
