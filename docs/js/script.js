@@ -21,13 +21,11 @@ function smartphoneWidth () {
         toggle.classList.add('changeBars')
         menuTL
             .to(mobileMenu, { translateX: '0vw'  })
-            // .fromTo(mobileMenuLink, { scale: 0 }, { scale: 1 }, '-=0.8')
         isOpen = true
     } else {
         toggle.classList.remove('changeBars')
         menuTL
-            .to(mobileMenu, { translateX: '-80vw' })
-            // .fromTo(mobileMenuLink, { scale: 1 }, { scale: 0 }, '-=0.8')
+            .to(mobileMenu, { translateX: '-85vw' })
         isOpen = false
     }
 }
@@ -37,13 +35,11 @@ function tabletWidth() {
         toggle.classList.add('changeBars')
         menuTL
             .to(mobileMenu, { translateX: '0vw' })
-        // .fromTo(mobileMenuLink, { scale: 0 }, { scale: 1 }, '-=0.8')
         isOpen = true
     } else {
         toggle.classList.remove('changeBars')
         menuTL
-            .to(mobileMenu, { translateX: '-80vw' })
-        // .fromTo(mobileMenuLink, { scale: 1 }, { scale: 0 }, '-=0.8')
+            .to(mobileMenu, { translateX: '-85vw' })
         isOpen = false
     }
 }
