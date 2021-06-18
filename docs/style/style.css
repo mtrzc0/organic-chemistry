@@ -297,7 +297,7 @@ footer {
 }
 
 footer span {
-    font-size: 1.3em;
+    font-size: 1em;
     margin: 0 3px;
 }
 
@@ -442,6 +442,10 @@ footer img {
         width: 96vw;
         padding: 2px;
     }
+    footer span {
+    font-size: 1.3em;
+    margin: 0 3px;
+}
 }
 
 /* 4" or 5" */
@@ -538,7 +542,7 @@ footer img {
     .card {
         padding: 5px;
         margin: 1px;
-        font-size: 16px;
+        font-size: 18px;
     }
     .card ul {
         padding: 0;
