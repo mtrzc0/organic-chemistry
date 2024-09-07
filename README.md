@@ -1,2 +1,1 @@
-# chemiaorganiczna
-Site about chemistry with full responsive layout
+Webapp about chemistry with full responsive layout
